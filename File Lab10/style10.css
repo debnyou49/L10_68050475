@@ -1,0 +1,186 @@
+/* ===================================================
+   L10_68050475.css
+   Assignment 10 - Bootstrap Carousel
+   รหัสนักศึกษา: 68050475
+   =================================================== */
+
+/* ===== NAVBAR ===== */
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #3e2a1e !important;
+}
+
+.navbar {
+  background-color: #f5ede3 !important;
+  border-bottom: 2px solid #c4956a;
+}
+
+.nav-link {
+  color: #3e2a1e !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.nav-link:hover {
+  color: #c4956a !important;
+}
+
+/* ===== CAROUSEL ITEM HEIGHT ===== */
+.carousel-item {
+  height: 500px;
+}
+
+/* ===== CAROUSEL BACKGROUND IMAGES ===== */
+.carousel-image-1 {
+  background-image: url('images/pic14.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background-image: url('images/pic13.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3 {
+  background-image: url('images/pic10.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== CAROUSEL CAPTION H1 ===== */
+.carousel-caption h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+  color: #f0e0c8;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(40, 20, 5, 0.38);
+}
+
+/* ===== SECTION TITLE ===== */
+.section-title {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3e2a1e;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #c4956a;
+  margin: 0.7rem auto 0;
+  border-radius: 2px;
+}
+
+/* ===== MENU SECTION ===== */
+.menu-section {
+  background: #fdf6ee;
+  padding: 4rem 0;
+}
+
+.menu-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(100, 60, 20, 0.10);
+  margin-bottom: 2rem;
+  background: #fff;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(100, 60, 20, 0.18);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.menu-card-body {
+  padding: 0.85rem 1rem 1rem;
+  text-align: center;
+}
+
+.menu-card-body h6 {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #3e2a1e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.badge-new {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #c0392b;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 9px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about-section {
+  background: #3e2a1e;
+  color: #f5ede3;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #c4956a;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 1rem auto 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #e8d5be;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #6d4c41;
+  color: #f5ede3;
+  text-align: center;
+  padding: 1.4rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
